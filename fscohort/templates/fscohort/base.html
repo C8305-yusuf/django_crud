@@ -9,17 +9,15 @@
 </head>
 
 <body>
-    <h1><hr>
+    <h1>
+        <hr>
         <center>
             Clarusway
         </center>
         <hr>
     </h1>
-
-    {% block content %}
-    
-    
-    
+    <a href="{% url 'home' %}">HOME</a> 
+    {% block content %} 
     {% endblock content %}
 </body>
 
